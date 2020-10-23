@@ -1,2 +1,3 @@
-# Site teste filme
- Primeiro repositório versionado (curso Git e Github)
+# Site teste para repositório.
+
+Primeiro repositório versionado (curso Git e Github).
