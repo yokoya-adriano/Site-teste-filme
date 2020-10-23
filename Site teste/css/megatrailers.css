@@ -1,0 +1,432 @@
+/** formatação básica do site **/
+body {
+    background-color: #2C3E50;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Bistream Vera Sans", sans-serif;
+    color: #EAEEEF;
+    margin: 0px;
+}
+
+.font400 {
+    font-size: 400% !important;
+}
+
+.font300 {
+    font-size: 300% !important;
+}
+
+.font250 {
+    font-size: 250% !important;
+}
+
+.font200 {
+    font-size: 200% !important;
+}
+
+.font150 {
+    font-size: 150% !important;
+}
+
+.font125 {
+    font-size: 125% !important;
+}
+
+.font90 {
+    font-size: 90% !important;
+}
+
+.cinza {
+    color: #CBCCCD;
+}
+
+.horizontal > li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.horizontal {
+    margin: 0px;
+    padding: 0px;
+    color: dimgray;
+}
+
+.ativo {
+    color: white;
+}
+
+.grande {
+    font-size: 180% !important;
+}
+
+.subtitulo {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 165%;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+.espaco_abaixo {
+    margin-bottom: 0.2em;
+}
+
+.espaco_acima {
+    margin-top: 0.5em;
+}
+
+.centro {
+    text-align: center;
+}
+
+.chamada {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.15)), url(https://img.youtube.com/vi/4r0287tUEgk/maxresdefault.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.area_chamada {
+    margin: auto;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+.titulo {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.05em;
+    font-weight: 400;
+    text-shadow: /* offset-x, offset-y, blur, color*/ 3px 3px 0px rgba(0, 0, 0, 0.6);
+}
+
+.parte_superior {
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+.logo_facebook {
+    position: absolute;
+    top: 31px;
+    right: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.boas_vindas {
+    font-weight: bold;
+    font-size: 80%;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.logo > img {
+    width: 250px;
+}
+
+/** SEÇÃO: MINIATURAS **/
+
+.miniaturas {
+    margin-top: -200px;
+    padding: 0px 4%;
+}
+
+.figuras, .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+figure {
+    margin: 5px;
+}
+
+figcaption {
+    width: 156px;
+    height: 231px;
+    background-color: black;
+    display: flex;
+    justify-content: center; /** alinhamento horizontal **/
+    align-items: center; /** alinhamento vertical **/
+    margin-top: -238px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 150%;
+}
+
+figure > img {
+    position: relative;
+    z-index: 1;
+    transition: all 0.2s linear; /** o que vai ser a transição, tempo, e como */
+}
+
+figure > img:hover {
+    opacity: 0.2;
+}
+
+/** SEÇÃO: POSTS **/
+.posts {
+    margin: 50px 4% 0 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone {
+    color: darkgray;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.option {
+    margin-left: 15px;
+}
+
+.option > div {
+    font-size: 150% !important;
+    color: darkgray;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+iframe {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    margin-right: 5px;
+}
+
+form > input {
+    width: 290px;
+    font-size: 105%;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+button {
+    font-size: 105%;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: -6px;
+    background-color: #337AB7;
+    color: white;
+    width: 55px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.pesquisa {
+    font-size: 105%;
+    padding: 10px;
+    border-width: 0px;
+    margin: 0px auto;
+}
+
+.lateral {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_lateral {
+    margin: 20px auto;
+}
+
+table {
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 10px;
+}
+
+thead > tr:last-child, tbody > tr:last-child {
+    border-bottom: 1px solid darkgray;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #223140;
+}
+
+.continua {
+    border-collapse: collapse;
+}
+
+tbody > tr:hover {
+    background-color: darkgray;
+}
+
+/** Seção Rodapé **/
+.rodape {
+    padding: 25px;
+    color: white;
+}
+
+.rodape li {
+    margin-right: 20px;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+}
+
+li > .link:hover {
+    text-decoration: underline;
+    color: darkgray;
+}
+
+.link:hover {
+    color: white;
+}
+
+/* PÁGINA DETALHES
+Primeira seção - vídeo */
+
+.player {
+    max-width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 0;
+}
+
+.player > iframe {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* SEGUNDA SEÇÃO 
+MOVIE INFO */
+
+.movie_info {
+    max-width: 100%;
+    z-index: 1;
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.area_info {
+    display: flex;
+    margin: 45vh 3% 0px 2%;
+}
+
+.cartaz_detalhe {
+    width: 156px;
+    margin: 7px;
+}
+
+.trailer_detalhe {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.titulo_detalhe {
+    height: 231px;
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.titulo_detalhe li {
+    padding: 10px;
+}
+
+.corpo_artigo {
+    width: 100%;
+    display: flex;
+}
+
+.lateral_detalhe {
+    width: 300px;
+    margin: 7px;
+}
+
+.texto_artigo {
+    width: 100%;
+    margin: 7px;
+    padding-right: 60px;
+}
+
+.star {
+    margin: 6px 0px;
+    text-align: center;
+}
+
+.star > li {
+    font-size: 1.4em !important;
+    margin: 0px 2px;
+}
+
+.data_lancamento {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.data_lancamento > i {
+    margin-right: -5px;
+}
+
+.linha {
+    border-bottom: 1px solid white;
+}
+
+.descricao {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+.descricao > p:first-child {
+    margin-top: 0px;
+}
+
+.banner_lateral_detalhe {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 30px;
+}

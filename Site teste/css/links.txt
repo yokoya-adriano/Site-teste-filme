@@ -1,0 +1,30 @@
+1 - Elemento HTML: representado por uma tag -> exemplo: <p>"Conteúdo elemento HTML"</p>
+- Posso ter um elemento dentro de um elemento: <body><p></p></body>
+
+2 - Atributos dos elementos: São atributos além da tag -> exemplo <p title="titulo">Exemplo</p>
+- Um elemento pode ter vários atributos
+- Atributos podem ter vários valores (class (...))
+
+ENTENDER QUAIS ELEMENTOS HTML, FORMATA-LOS E POSCIONA-LOS.
+CSS - Cascade Style Sheet - Folha de Estilo em Cascata
+
+Fontes importantes:
+Google Fonts
+Fonts Awesome
+
+Sites referências para HTML:
+https://developer.mozilla.org/pt-BR/
+http://html5doctor.com/
+http://validator.w3.org/
+https://developers.google.com/web
+https://pt.stackoverflow.com/
+
+Sites referências para CSS:
+https://www.w3schools.com/cssref/css_selectors.asp
+https://developer.mozilla.org/pt-BR/docs/Web/CSS
+https://css-tricks.com/
+https://caniuse.com/
+
+
+azul - 7788EE
+laranja - FD8237
